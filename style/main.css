@@ -78,12 +78,12 @@ h2 {
 }
 
 /* mouse-over link */
-.nav-links li a:hover {
+	.nav-links li a:hover {
     color: #962c25;
 }
 
 /* selected link */
-.nav-links li a:active {
+	.nav-links li a:active {
     color: #962c25;
 }
 
@@ -109,10 +109,6 @@ h2 {
 
 #MenuHeader {
 	width: 60%;
-}
-
-.menu-header {
-
 }
 
 .address-link, .address-change {
