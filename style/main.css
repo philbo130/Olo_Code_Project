@@ -10,6 +10,10 @@ body {
 	overflow: auto;
 }
 
+#wrapper {
+	height: 100%;
+}
+
 button {
 	border: none;
 }
@@ -31,9 +35,6 @@ a {
 	src: url('../fonts/Bungee/Bungee-Regular.ttf');
 	font-family: LobsterFont;
 	src: url('../fonts/Lobster/Lobster-Regular.ttf');
-}
-#wrapper {
-	height: 100%;
 }
 
 body {
@@ -176,6 +177,7 @@ h2 {
 	height: 6em;
 	width: 90%;
 }
+
 /* mouse-over link */
 #ProductList ul .product-detail:hover {
 	background-color: #fff;
