@@ -200,6 +200,10 @@ h2 {
 	width: 95%;
 }
 
+.product-detail span {
+	display: block;
+}
+
 #prod1 .product-image {
    	content:url('../img/Products/Classic-Burger.jpg');
 }
