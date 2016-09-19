@@ -174,12 +174,11 @@ h2 {
 #ProductList ul li{
 	width: 50%;
 	float: left;
-
 }
 
 #ProductList ul .product-detail {
 	font-style: italic;
-	height: 5em;
+	height: 6em;
 	width: 90%;
 }
 /* mouse-over link */
@@ -220,13 +219,19 @@ h2 {
 #prod5 .product-image {
    	content:url('../img/Products/Foos-Burger.png');
 }
+
+/*Hide product price*/
+.product-detail span:nth-child(3) {
+	display: none;
+}
+
 /*////////// Order Contents ///////////*/
 
 #BasketView {
 	width: 33%;
 	background-color: #e1a772;
 	float: right;
-	height: 100vh;
+	height: 140vh;
 }
 
 
