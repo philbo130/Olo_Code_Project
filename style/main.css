@@ -140,12 +140,12 @@ h2 {
 
 /* mouse-over link */
 #CategoryList li:hover {
-    background-color: #962c25;
+	background-color: #962c25;
 }
 
 /* selected link */
 #CategoryList li:active {
-    background-color: #962c25;
+	background-color: #962c25;
 }
 
 /*////////// Products ///////////*/
@@ -233,7 +233,6 @@ h2 {
 	float: right;
 	height: 100vh;
 }
-
 
 /*////////// Footer ///////////*/
 
