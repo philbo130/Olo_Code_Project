@@ -108,19 +108,63 @@ h2 {
 	margin: 0 auto;
 }
 
-/*////////// Menu Header ///////////*/
+/*////////// Menu Header Block///////////*/
 
 #Menu {
 	width: 66%;
 	float: left;
+	margin-top: 15px;
+	margin-bottom: 15px;
 }
 
 #MenuHeader {
 	width: 100%;
 }
 
+.address-change::before {
+  content: "\A";
+  white-space: pre;
+}
+
+.address {
+	padding: 5px 0 5px 0;
+}
+
 .address-link, .address-change {
 	color: #962c25;
+}
+
+.menu-info {
+	margin: 10px 0 0 0;
+	width: 90%;
+	padding: 0px;
+	border-collapse: collapse;
+	position:relative;
+	z-index:1;
+}
+
+.menu-info dt {
+	margin: 0;
+	display:inline-block;
+	vertical-align:top;
+	width: 25%;
+	padding: 2px 0 2px 0;
+	position:relative;
+}
+
+.menu-info dd {
+	margin: 0;
+	display:inline-block;
+	vertical-align:top;
+	text-align: right;
+	width: 70%;
+	padding:2px;
+	position:relative;
+}
+
+#acceptedCards {
+	margin-top: 0;
+	margin-bottom: 10px;
 }
 
 #CategoryList {
@@ -149,7 +193,7 @@ h2 {
 	background-color: #962c25;
 }
 
-/*////////// Products ///////////*/
+/*////////// Products Block ///////////*/
 
 #ProductList {
 	width: 66%;
@@ -159,6 +203,10 @@ h2 {
 #ProductList .category-header .category-name {
    	content:url('../img/Burger-Category-Header.jpg');
    	width: 100%;
+}
+
+.category-header {
+	margin-bottom: 20px;
 }
 
 #ProductList .category-header p {
@@ -188,10 +236,11 @@ h2 {
 	background-color: #fff;
 }
 
-#ProductList ul .product-title {
+.product-title {
 	font-family: Bungee;
 	font-style: normal;
 	color: #962c25;
+	text-align: center;
 }
 
 .product-image {
@@ -227,16 +276,58 @@ h2 {
 	display: none;
 }
 
-/*////////// Order Contents ///////////*/
+/*////////// Order Contents Block ///////////*/
 
 #BasketView {
 	width: 30%;
+	padding: 15px 10px 15px 10px;
 	background-color: #e1a772;
 	float: right;
 	height: 100vh;
 }
 
-/*////////// Footer ///////////*/
+#BasketView h2 {
+	font-size: 1em;
+	text-align: center;
+	margin: 2px 0 15px 0;
+}
+
+#BasketTotals {
+	margin: 10px 0 0 0;
+	width: 100%;
+	padding: 0px;
+	border-collapse: collapse;
+	position:relative;
+	z-index:1;
+	border-top: 2px solid #962c25;
+}
+
+#BasketTotals dl:first-child {
+	margin-top: 15px;
+}
+
+.summary dt, .total dt {
+	color: #962c25;
+	margin: 2px 0 1px 0;
+	display:inline-block;
+	vertical-align:top;
+	width: 49%;
+	padding: 2px 0 2px 0;
+	position:relative;
+}
+
+.summary dd, .total dd {
+	margin: 2px 0 1px 0;
+	display:inline-block;
+	vertical-align:top;
+	text-align: right;
+	width: 49%;
+	padding:0px;
+	position:relative;
+}
+
+
+/*////////// Footer Block ///////////*/
 
 footer {
 	width: 100%; 
